@@ -1,11 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom'
 import App from './App'
-import Signup from './pages/Signup'
-import Login from './pages/Login'
-import Dashboard from './pages/Dashboard'
-import ProtectedRoutes from './pages/ProtectedRoutes'
-import UpdateJob from './pages/UpdateJob'
-import NotFound from './pages/NotFound'
+import Signup from './Pages/Signup'
+import Login from './Pages/Login'
+import Dashboard from './Pages/Dashboard'
+import ProtectedRoutes from './Pages/ProtectedRoutes'
+import UpdateJob from './Pages/UpdateJob'
+import NotFound from './Pages/NotFound'
 
 const router = createBrowserRouter([
   {
